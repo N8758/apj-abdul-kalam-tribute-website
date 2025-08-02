@@ -1,0 +1,164 @@
+
+@font-face {
+  font-family: 'Kalam';
+  src: url('fonts/kalam.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kalam', sans-serif;
+  background: url('images/bg-pattern.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #0f172a;
+  color: #f8fafc;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 60px rgba(0, 180, 216, 0.1);
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid #00b4d8;
+  box-shadow: 0 12px 25px rgba(0, 180, 216, 0.4);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  flex: 2;
+}
+
+.title h1 {
+  font-size: 3rem;
+  color: #90e0ef;
+  margin-bottom: 8px;
+}
+
+.title .lifespan {
+  font-size: 1.25rem;
+  color: #48cae4;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.about-section h2,
+.biography-section h2 {
+  font-size: 2rem;
+  color: #00b4d8;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 5px;
+  margin-top: 50px;
+}
+
+.about-section p,
+.biography-section p {
+  font-size: 1.15rem;
+  color: #e0f7fa;
+  text-align: justify;
+  margin-bottom: 20px;
+  letter-spacing: 0.4px;
+}
+
+.biography-section ul {
+  padding-left: 20px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.biography-section li {
+  margin-bottom: 15px;
+  color: #d8f3dc;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0077b6;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.read-more:hover {
+  background: #023e8a;
+  transform: translateY(-2px);
+}
+
+footer {
+  margin-top: 60px;
+  text-align: right;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+}
+
+footer a {
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #90e0ef;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 2.2rem;
+  }
+
+  .title .lifespan {
+    font-size: 1rem;
+  }
+
+  .image-container img {
+    width: 180px;
+    height: 180px;
+  }
+}
