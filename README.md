@@ -81,15 +81,6 @@ apj-abdul-kalam-tribute-website/
 
 [🔗 View the Tribute Website Online](https://yourusername.github.io/apj-abdul-kalam-tribute-website/)
 
----
-
-## 🖼️ Screenshots
-
-| Main Page                          | Full Biography                           |
-| ---------------------------------- | ---------------------------------------- |
-| ![Home Page](images/apj-kalam.jpg) | ![Biography Page](images/bg-pattern.jpg) |
-
----
 
 ## 📘 References
 
