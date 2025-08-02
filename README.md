@@ -75,12 +75,6 @@ apj-abdul-kalam-tribute-website/
 
 ---
 
-## 🌐 Live Demo
-
-> Upload your site to GitHub Pages or Netlify, then replace the below link:
-
-[🔗 View the Tribute Website Online](https://yourusername.github.io/apj-abdul-kalam-tribute-website/)
-
 
 ## 📘 References
 
